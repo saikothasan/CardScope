@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { TextIcon as Telegram } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -42,8 +43,17 @@ export default function Footer() {
             <p className="text-gray-400">Twitter: @cardscopeio</p>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2025 CardScope. All rights reserved.</p>
+        <div className="mt-8 pt-8 border-t border-gray-800 flex justify-between items-center">
+          <p className="text-gray-400">&copy; 2025 CardScope. All rights reserved.</p>
+          <a
+            href="https://t.me/drkingbd"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
+          >
+            <Telegram className="mr-2 h-5 w-5" />
+            Join our Telegram
+          </a>
         </div>
       </div>
     </footer>
