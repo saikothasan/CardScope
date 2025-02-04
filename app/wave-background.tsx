@@ -36,9 +36,12 @@ export default function WaveBackground() {
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-      drawWave(canvas.height * 0.65, 20, 0.02, 0.5, "rgba(59, 130, 246, 0.2)")
-      drawWave(canvas.height * 0.75, 30, 0.03, 0.7, "rgba(99, 102, 241, 0.2)")
-      drawWave(canvas.height * 0.85, 40, 0.01, 0.3, "rgba(139, 92, 246, 0.2)")
+      // More colorful waves
+      drawWave(canvas.height * 0.8, 30, 0.02, 0.5, "rgba(59, 130, 246, 0.2)") // Blue
+      drawWave(canvas.height * 0.85, 40, 0.03, 0.7, "rgba(99, 102, 241, 0.2)") // Indigo
+      drawWave(canvas.height * 0.9, 50, 0.01, 0.3, "rgba(139, 92, 246, 0.2)") // Purple
+      drawWave(canvas.height * 0.95, 60, 0.02, 0.4, "rgba(236, 72, 153, 0.2)") // Pink
+      drawWave(canvas.height, 70, 0.03, 0.6, "rgba(248, 113, 113, 0.2)") // Red
 
       animationFrameId = requestAnimationFrame(animate)
     }
