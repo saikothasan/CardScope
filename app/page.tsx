@@ -6,6 +6,7 @@ import Footer from "./components/footer"
 import About from "./components/about"
 import Features from "./components/features"
 import FAQ from "./components/faq"
+import StructuredData from "./components/structured-data"
 
 export default function Page() {
   return (
@@ -31,6 +32,7 @@ export default function Page() {
       </main>
 
       <Footer />
+      <StructuredData />
     </div>
   )
 }
