@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">BINList.io</h3>
+            <h3 className="text-lg font-semibold mb-4">CardScope</h3>
             <p className="text-gray-400">
               Providing comprehensive BIN/IIN lookup services for businesses and developers.
             </p>
@@ -38,12 +38,12 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-400">Email: support@binlist.io</p>
-            <p className="text-gray-400">Twitter: @binlistio</p>
+            <p className="text-gray-400">Email: support@cardscope.io</p>
+            <p className="text-gray-400">Twitter: @cardscopeio</p>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2025 BINList.io. All rights reserved.</p>
+          <p>&copy; 2025 CardScope. All rights reserved.</p>
         </div>
       </div>
     </footer>
