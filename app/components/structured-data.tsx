@@ -15,7 +15,7 @@ export default function StructuredData() {
     author: {
       "@type": "Organization",
       name: "CardScope",
-      url: "https://www.cardscope.io",
+      url: "https://card-scope.vercel.app",
     },
     aggregateRating: {
       "@type": "AggregateRating",
