@@ -5,7 +5,7 @@ export default function About() {
         <h2 className="text-3xl font-bold text-gray-900 mb-6">About BINList.io</h2>
         <div className="prose prose-lg prose-gray max-w-none">
           <p>
-            BINList.io is the leading open-source database for Bank Identification Numbers (BIN) and Issuer
+            Cardscop is the leading open-source database for Bank Identification Numbers (BIN) and Issuer
             Identification Numbers (IIN). Our mission is to provide accurate, up-to-date information about payment card
             metadata to businesses, developers, and financial institutions worldwide.
           </p>
