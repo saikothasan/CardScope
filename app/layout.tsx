@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CardScope - Professional BIN Lookup Service",
     description: "Get detailed information about any credit or debit card's issuing bank, scheme, and more with CardScope's comprehensive BIN database.",
-    url: "https://www.cardscope.io",
+    url: "https://card-scope.vercel.app",
     siteName: "CardScope",
     images: [
       {
-        url: "https://www.cardscope.io/og-image.jpg",
+        url: "https://card-scope.vercel.app/credit-card_7330923.png",
         width: 1200,
         height: 630,
         alt: "CardScope - BIN Lookup Service",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CardScope - Professional BIN Lookup Service",
     description: "Get detailed information about any credit or debit card's issuing bank, scheme, and more with CardScope's comprehensive BIN database.",
-    images: ["https://www.cardscope.io/twitter-image.jpg"],
+    images: ["https://card-scope.vercel.app/credit-card_7330923.png"],
     creator: "@cardscopeio",
   },
   robots: {
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png',
   },
-  manifest: "https://www.cardscope.io/site.webmanifest",
+  manifest: "/site.webmanifest",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#3b82f6" },
     { media: "(prefers-color-scheme: dark)", color: "#1e3a8a" },
